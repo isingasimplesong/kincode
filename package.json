@@ -4,7 +4,7 @@
   "description": "Shared TOTP-based identity verification for non-technical users.",
   "private": true,
   "scripts": {
-    "vendor:update": "cp node_modules/qrious/dist/qrious.min.js public/js/vendor/"
+    "vendor:update": "cp node_modules/qrcode-generator/dist/qrcode.js public/js/vendor/qrcode-generator.js"
   },
   "repository": {
     "type": "git",
@@ -12,6 +12,6 @@
   },
   "license": "AGPL-3.0",
   "devDependencies": {
-    "qrious": "^4.0.2"
+    "qrcode-generator": "^2.0.4"
   }
 }
