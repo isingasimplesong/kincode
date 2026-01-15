@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git.2027a.net/mathieu/kincode.git"
+    "url": "https://github.com/isingasimplesong/kincode.git"
   },
-  "license": "AGPL-3.0",
+  "license": "MIT",
   "devDependencies": {
     "qrcode-generator": "^2.0.4"
   }
