@@ -1,4 +1,4 @@
-# authfam
+# KinCode
 
 Shared TOTP-based identity verification for non-technical users.
 

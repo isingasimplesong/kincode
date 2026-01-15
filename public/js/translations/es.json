@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Código Familiar",
+    "title": "KinCode",
     "subtitle": "Crea un código secreto compartido con tus seres queridos"
   },
   "form": {
@@ -37,7 +37,7 @@
     "warning3": "Escanea el código QR ahora, desaparecerá cuando cierres la página"
   },
   "why": {
-    "title": "¿Por qué usar Código Familiar?",
+    "title": "¿Por qué usar KinCode?",
     "riskTitle": "El riesgo: Suplantación de identidad",
     "riskText": "Hoy en día, con la IA, es fácil clonar una voz o un rostro. Los estafadores pueden llamar fingiendo ser un hijo o un abuelo en apuros para pedir dinero.",
     "solutionTitle": "La solución: El código secreto",

@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "Code Famille",
+    "title": "KinCode",
     "subtitle": "Créez un code secret partagé avec vos proches"
   },
   "form": {
@@ -37,7 +37,7 @@
     "warning3": "Scannez le QR code maintenant, il disparaîtra à la fermeture de la page"
   },
   "why": {
-    "title": "Pourquoi utiliser Code Famille ?",
+    "title": "Pourquoi utiliser KinCode ?",
     "riskTitle": "Le risque : l'usurpation d'identité",
     "riskText": "Aujourd'hui, avec l'intelligence artificielle, il est devenu facile de copier une voix ou un visage. Des escrocs peuvent vous appeler en se faisant passer pour un enfant ou un grand-parent en détresse pour vous demander de l'argent.",
     "solutionTitle": "La solution : le code secret",

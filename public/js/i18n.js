@@ -17,7 +17,7 @@ const I18n = {
 
   getStoredLang() {
     try {
-      return localStorage.getItem('authfam-lang');
+      return localStorage.getItem('kincode-lang');
     } catch (e) {
       console.warn('Language preference unavailable:', e);
       return null;
@@ -26,7 +26,7 @@ const I18n = {
 
   setStoredLang(lang) {
     try {
-      localStorage.setItem('authfam-lang', lang);
+      localStorage.setItem('kincode-lang', lang);
     } catch (e) {
       console.warn('Failed to persist language preference:', e);
     }
