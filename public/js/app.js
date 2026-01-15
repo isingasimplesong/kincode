@@ -240,19 +240,17 @@ const App = {
       });
 
       const qrContainer = document.getElementById(`qr-${member.id}`);
-      if (qrContainer && typeof QRious !== 'undefined') {
+      if (qrContainer && typeof qrcode !== 'undefined') {
+        const qr = qrcode(0, 'M');
+        qr.addData(uri);
+        qr.make();
+        
         const img = document.createElement('img');
+        img.src = qr.createDataURL(4, 0);
         img.width = 200;
         img.height = 200;
         img.alt = `QR Code for ${member.name}`;
         qrContainer.appendChild(img);
-        
-        new QRious({
-          element: img,
-          value: uri,
-          size: 200,
-          level: 'M'
-        });
       }
     });
 
