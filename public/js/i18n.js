@@ -6,7 +6,7 @@
 const I18n = {
   translations: {},
   currentLang: 'fr',
-  supportedLangs: ['fr', 'en'],
+  supportedLangs: ['fr', 'en', 'es'],
   
   async init() {
     const browserLang = navigator.language.slice(0, 2);
