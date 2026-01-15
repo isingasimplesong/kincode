@@ -3,8 +3,8 @@ services:
     build: .
     container_name: authfam
     restart: unless-stopped
-    ports:
-      - "8071:80"
+    # ports:
+    #   - "8071:80"
     read_only: true
     tmpfs:
       - /var/cache/nginx
